@@ -4,11 +4,6 @@ import Card from "./assets/components/Card"
 function App() {
 
 
-  const languageInfo = [{
-    id: 1,
-    name: "HTML",
-    description: " HTML (Hyper Text Markup Language) è il linguaggio standard per creare pagine e applicazioni web. Struttura il contenuto web e fornisce elementi di base come titoli, paragrafi e immagini"
-  }]
 
 
 
@@ -22,7 +17,12 @@ function App() {
     <>
 
       <div className="container">
-        <Card />
+        <div className="card mt-3">
+          <div className="card-header">
+            <h1>Learn Web development</h1>
+          </div>
+          <Card />
+        </div>
       </div>
 
     </>
