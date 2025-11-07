@@ -1,4 +1,4 @@
-export default function NoLanguageCard({ info, active }) {
+export default function NoLanguageCard() {
 
 
 
@@ -9,7 +9,7 @@ export default function NoLanguageCard({ info, active }) {
 
 
 
-            {<p >nessun linguaggio selezionato</p>}
+            {<h2 >nessun linguaggio selezionato</h2>}
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import LanguageCard from "./LanguageCard"
+import NoLanguageCard from "./NoLanguageCard"
 
 
 
@@ -28,7 +29,7 @@ export default function Buttons({ info }) {
             }
 
 
-            {active !== 0 && <LanguageCard info={info} active={active} />}
+            {active !== 0 ? <LanguageCard info={info} active={active} /> : <NoLanguageCard />}
 
 
 
