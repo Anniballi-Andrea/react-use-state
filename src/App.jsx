@@ -1,4 +1,5 @@
-import Card from "./assets/components/Card"
+import Buttons from "./assets/components/Buttons"
+
 
 
 function App() {
@@ -54,7 +55,7 @@ function App() {
           <div className="card-header">
             <h1>Learn Web development</h1>
           </div>
-          <Card info={info} />
+          <Buttons info={info} />
         </div>
       </div>
 
